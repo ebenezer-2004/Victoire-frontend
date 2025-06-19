@@ -1233,12 +1233,16 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/banner/la_victoire15.jpg);
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/banner/banner2.png);
+  background-image: url(../img/banner/la_victoire28.jpg);
+}
+
+.slider_bg_3 {
+  background-image: url(../img/banner/la_victoire26.jpg);
 }
 
 /* line 8, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_slider.scss */
@@ -1254,6 +1258,12 @@ h3 {
   .slider_area .single_slider {
     height: 420px;
   }
+}
+
+.slider_area .single_slider .slider_text {
+  background: rgba(255, 255, 255, 0.5);
+  padding:50px;
+  border-radius: 15px;
 }
 
 /* line 17, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_slider.scss */
@@ -2841,7 +2851,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_service.scss */
 .service_area {
-  background: #83C4FF;
+  background: #2BB6AA;
 }
 
 /* line 3, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_service.scss */
@@ -2900,7 +2910,7 @@ h3 {
 
 /* line 40, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_service.scss */
 .service_area .col-xl-4:nth-child(2) .single_service {
-  background: #5DB2FF;
+  background: #5db1ff70;
 }
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_experts.scss */

@@ -10,7 +10,7 @@
                 <h3><span>Soins de santé</span><br> Pour toute la famille</h3>
                 <p>À la Clinique La Victoire, notre priorité est votre bien-être. <br>
                    Des services accessibles, humains et adaptés à vos besoins.</p>
-                <a href="#" class="boxed-btn3">Découvrir nos services</a>
+                <routerLink to="/a-propos" class="boxed-btn3">Nous découvrir</routerLink>
               </div>
             </div>
           </div>
@@ -25,7 +25,7 @@
               <div class="slider_text">
                 <h3><span>Consultations</span><br> Générales & spécialisées</h3>
                 <p>Notre équipe de professionnels est à votre écoute : pédiatrie, gynécologie, médecine générale et plus encore.</p>
-                <a href="#" class="boxed-btn3">Voir nos spécialités</a>
+                <routerLink to="/departement" class="boxed-btn3">Voir nos spécialités</routerLink>
               </div>
             </div>
           </div>
@@ -40,7 +40,7 @@
               <div class="slider_text">
                 <h3><span>Équipements modernes</span><br> et service 24h/24</h3>
                 <p>La Victoire vous accueille dans un cadre confortable, avec une technologie adaptée pour une prise en charge rapide et efficace.</p>
-                <a href="#" class="boxed-btn3">En savoir plus</a>
+                <routerLink to="/a-propos" class="boxed-btn3">En savoir plus</routerLink>
               </div>
             </div>
           </div>

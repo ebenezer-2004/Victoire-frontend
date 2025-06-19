@@ -1,5 +1,5 @@
 <template>
-  <div class="service_area">
+  <div class="service_area" id='services'>
     <div class="container p-0">
       <div class="row no-gutters">
         <!-- Service 1: Hospitalité -->

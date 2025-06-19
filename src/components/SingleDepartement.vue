@@ -41,7 +41,7 @@
                             <img src="/img/department/3.png" alt="">
                         </div>
                         <div class="department_content">
-                            <h3><a href="#">Gynécologie - Obstétrique</a></h3>
+                            <h3><a href="#">Gynécologie-Obstétrique</a></h3>
                             <p>Esteem spirit temper too say adieus who direct esteem.</p>
                             <a href="#" class="learn_more">Learn More</a>
                         </div>
@@ -50,9 +50,7 @@
                
             </div>
             <div class="row d-flex justify-content-center" >
-                <a href=""  style="text-align: center;  background: #fff;
-  color: #009DFF !important;
-  border: 1px solid transparent;">Voir plus</a>
+            <a href="#" class="genric-btn success-border">Voir plus</a>
             </div>
         </div>
     </div>

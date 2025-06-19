@@ -7,22 +7,23 @@
                     <div class="row">
                         <div class="col-xl-6 col-md-6 ">
                             <div class="social_media_links">
-                                <a href="#">
+                                <routerLink to="#">
                                     <i class="fa fa-linkedin"></i>
-                                </a>
-                                <a href="#">
+                                </routerLink>
+                                <routerLink to="#">
                                     <i class="fa fa-facebook"></i>
-                                </a>
-                                <a href="#">
+                                </routerLink>
+                                <routerLink to="#">
                                     <i class="fa fa-google-plus"></i>
-                                </a>
+                                </routerLink>
                             </div>
                         </div>
                         <div class="col-xl-6 col-md-6">
                             <div class="short_contact_list">
                                 <ul>
-                                    <li><a href="#"> <i class="fa fa-envelope"></i> info@docmed.com</a></li>
-                                    <li><a href="#"> <i class="fa fa-phone"></i> 160160</a></li>
+                                    <!-- <li><a to="mailto:"> <i class="fa fa-envelope"></i> info@docmed.com</a></li> -->
+                                    <li><a to="tel:+228"> <i class="fa fa-phone"></i> 22 25 32 43 / 70 38 88 88 / 90 35 35 16 /  99 46 77 69</a></li>
+
                                 </ul>
                             </div>
                         </div>
@@ -34,7 +35,7 @@
                     <div class="row align-items-center">
                         <div class="col-xl-3 col-lg-2">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="/">
                                     <img src="/img/clinique-medical-victoire-logo.png" alt="" style="height:110px">
                                 </a>
                             </div>
@@ -43,10 +44,21 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="index.html">Acceuil</a></li>
-                                        <li><a href="">A propos</a></li>
-                                        <li><a href="">Blog</a> </li>      
-                                        <li><a href="">Contact</a></li>
+                                        <li>
+                                            <a class="active" href="/">Acceuil</a>
+                                        </li>
+                                        <li>
+                                            <routerLink to="/departement">Département</routerLink>
+                                        </li>
+                                        <li>
+                                            <routerLink to="/a-propos">A propos</routerLink>
+                                        </li>
+                                        <li>
+                                            <routerLink to="/blog">Blog</routerLink>
+                                        </li>
+                                        <li>
+                                            <routerLink to="/contact">Contact</routerLink>
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>
@@ -54,7 +66,8 @@
                         <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                             <div class="Appointment">
                                 <div class="book_btn d-none d-lg-block">
-                                    <a class="popup-with-form" href="#test-form">Prendre un rendez-vous</a>
+                                    <routerLink class="popup-with-form" to="#test-form">Prendre un rendez-vous
+                                    </routerLink>
                                 </div>
                             </div>
                         </div>
