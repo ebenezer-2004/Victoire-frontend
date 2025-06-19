@@ -5,10 +5,10 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="welcome_thumb">
                         <div class="thumb_1">
-                            <img src="/img/about/la_victoire22.jpg" style="height:440px;width:362px" alt="">
+                            <img src="/img/about/la_victoire30.jpg" style="height:440px;width:362px" alt="">
                         </div>
                         <div class="thumb_2">
-                            <img src="/img/about/la_victoire30.jpg" style="height:440px;width:362px" alt="">
+                            <img src="/img/about/la_victoire22.jpg" style="height:440px;width:362px" alt="">
                         </div>
                     </div>
                 </div>

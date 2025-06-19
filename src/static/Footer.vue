@@ -8,13 +8,10 @@
                         <div class="footer_widget">
                             <div class="footer_logo">
                                 <a href="#">
-                                    <img src="/img/footer_logo.png" alt="">
+                                    <img src="/img/clinique-medical-victoire-logo.png" alt="" style="height:150px">
                                 </a>
                             </div>
-                            <p>
-                                Firmament morning sixth subdue darkness
-                                creeping gathered divide.
-                            </p>
+                           
                             <div class="socail_links">
                                 <ul>
                                     <li>
@@ -40,14 +37,13 @@
                     <div class="col-xl-2 offset-xl-1 col-md-6 col-lg-3">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                Departments
+                               Ressources
                             </h3>
                             <ul>
-                                <li><a href="#">Eye Care</a></li>
-                                <li><a href="#">Skin Care</a></li>
-                                <li><a href="#">Pathology</a></li>
-                                <li><a href="#">Medicine</a></li>
-                                <li><a href="#">Dental</a></li>
+                                <li><routerLink to="/blog">Blog</routerLink></li>
+                                <li><routerLink to="/departement">Département</routerLink></li>
+                               
+                               
                             </ul>
 
                         </div>
@@ -55,43 +51,40 @@
                     <div class="col-xl-2 col-md-6 col-lg-2">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                Useful Links
+                               Liens rapide
                             </h3>
                             <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#"> Contact</a></li>
-                                <li><a href="#"> Appointment</a></li>
+                                <li><a href="/">Acceuil</a></li>
+                                <li><a to="/a-propos">A propos</a></li>
+                                <li><a tp="/contact"> Contact</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6 col-lg-3">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                Address
+                                Addresse
                             </h3>
                             <p>
-                                200, D-block, Green lane USA <br>
-                                +10 367 467 8934 <br>
-                                docmed@contact.com
+                               Avédji Limousine en face de la Pharmacie OSSAN <br>
+                               22 25 32 43 • 70 38 88 88 <br>
+                               90 35 35 16 • 99 46 77 69
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="copy-right_text">
+        <div class="copy-right_text" style="background-color: #35B7AE;color: white !important;">
             <div class="container">
                 <div class="footer_border"></div>
                 <div class="row">
                     <div class="col-xl-12">
-                        <p class="copy_right text-center">
+                        <p class="copy_right text-center" style="color: white !important;">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             Copyright &copy;
-                            document.write(new Date().getFullYear()); All rights reserved | This
-                            template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
-                                href="https://colorlib.com" target="_blank">Colorlib</a>
+                          2025 Tous droits reservés | Fait par  by <a
+                                href="https://colorlib.com" target="_blank" style="color:white">NEO START TECHNOLOGY</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>
@@ -105,6 +98,7 @@
 <script setup>
 
 import About from '@/pages/About.vue'
+import Blog from '@/pages/Blog.vue'
 </script>
 
 <style lang="scss" scoped></style>

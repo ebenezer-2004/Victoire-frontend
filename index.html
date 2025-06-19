@@ -1,33 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Docmed</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/gijgo.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/slicknav.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <link rel="stylesheet" href="css/nice-select.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/gijgo.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/slicknav.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div id="app"></div>
+   
     <script type="module" src="/src/main.js"></script>
-     <script type="module" src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script type="module" src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script type="module" src="js/vendor/jquery-1.12.4.min.js"></script>
     <script type="module" src="js/popper.min.js"></script>
     <script type="module" src="js/bootstrap.min.js"></script>
@@ -54,22 +55,65 @@
 
     <script type="module" src="js/main.js"></script>
     <script>
-        $('#datepicker').datepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-                rightIcon: '<span class="fa fa-caret-down"></span>'
-            }
-        });
-        $('#datepicker2').datepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-                rightIcon: '<span class="fa fa-caret-down"></span>'
-            }
+      $("#datepicker").datepicker({
+        iconsLibrary: "fontawesome",
+        icons: {
+          rightIcon: '<span class="fa fa-caret-down"></span>',
+        },
+      });
+      $("#datepicker2").datepicker({
+        iconsLibrary: "fontawesome",
+        icons: {
+          rightIcon: '<span class="fa fa-caret-down"></span>',
+        },
+      });
+      $(document).ready(function () {
+        $(".js-example-basic-multiple").select2();
+      });
+    </script>
 
+    <script
+      src="https://www.google.com/maps/dir/Clinique+la+Victoire,+Benjamin+Boukpeti+Rd,+Lom%C3%A9/6.1879694,1.1952889/@6.1959656,1.1825294,16z/data=!3m1!4b1!4m8!4m7!1m5!1m1!1s0x1021588c887cced3:0xd0f76ee2d1fa41c8!2m2!1d1.1800812!2d6.201033!1m0?entry=ttu&g_ep=EgoyMDI1MDYxNi4wIKXMDSoASAFQAw%3D%3D"
+      async
+      defer
+    ></script>
+    <script>
+      function initMap() {
+        var uluru = {
+          lat: -25.363,
+          lng: 131.044,
+        };
+        var grayStyles = [
+          {
+            featureType: "all",
+            stylers: [
+              {
+                saturation: -90,
+              },
+              {
+                lightness: 50,
+              },
+            ],
+          },
+          {
+            elementType: "labels.text.fill",
+            stylers: [
+              {
+                color: "#ccdee9",
+              },
+            ],
+          },
+        ];
+        var map = new google.maps.Map(document.getElementById("map"), {
+          center: {
+            lat: -31.197,
+            lng: 150.744,
+          },
+          zoom: 9,
+          styles: grayStyles,
+          scrollwheel: false,
         });
-    $(document).ready(function() {
-    $('.js-example-basic-multiple').select2();
-});
+      }
     </script>
   </body>
 </html>

@@ -448,8 +448,8 @@ h3 {
 /* line 51, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_btn.scss */
 .boxed-btn3:hover {
   background: #fff;
-  color: #009DFF !important;
-  border: 1px solid #009DFF;
+  color: #35B7AE !important;
+  border: 1px solid #35B7AE;
 }
 
 /* line 56, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_btn.scss */
@@ -488,7 +488,7 @@ h3 {
 /* line 80, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_btn.scss */
 .boxed-btn3-white:hover {
   background: #fff;
-  color: #009DFF !important;
+  color: #35B7AE !important;
   border: 1px solid transparent;
 }
 
@@ -612,7 +612,7 @@ h3 {
 
 /* line 171, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_btn.scss */
 .book_now:hover {
-  background: #009DFF;
+  background: #35B7AE;
   color: #fff;
 }
 
@@ -720,12 +720,12 @@ h3 {
 /* line 28, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #009DFF;
+  color: #35B7AE;
 }
 
 /* line 32, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a.active {
-  color: #009DFF;
+  color: #35B7AE;
 }
 
 @media (max-width: 767px) {
@@ -819,6 +819,7 @@ h3 {
   right: 0;
   width: 100%;
   top: 0;
+ 
   z-index: 9;
 }
 
@@ -938,7 +939,7 @@ h3 {
 
 /* line 85, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a {
-  background: #009DFF;
+  background: #35B7AE;
   padding: 12px 26px;
   font-size: 14px;
   font-weight: 400;
@@ -959,8 +960,8 @@ h3 {
 /* line 96, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a:hover {
   background: #fff;
-  color: #009DFF;
-  border: 1px solid #009DFF;
+  color: #35B7AE;
+  border: 1px solid #35B7AE;
 }
 
 /* line 104, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
@@ -1805,7 +1806,7 @@ h3 {
   background: #fff;
   line-height: 60px;
   font-size: 15px;
-  color: #009DFF;
+  color: #35B7AE;
   display: inline-block;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1961,7 +1962,7 @@ h3 {
 
 /* line 213, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_offers.scss */
 .features_room .rooms_here .single_rooms .room_thumb .room_heading a:hover {
-  color: #009DFF;
+  color: #35B7AE;
 }
 
 /* line 220, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_offers.scss */
@@ -2073,7 +2074,7 @@ h3 {
 
 /* line 281, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_offers.scss */
 .forQuery .Query_border .phone_num a {
-  background: #009DFF;
+  background: #35B7AE;
   color: #fff;
   padding: 12px 53px;
   border-radius: 30px;
@@ -2084,8 +2085,8 @@ h3 {
 
 /* line 289, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_offers.scss */
 .forQuery .Query_border .phone_num a:hover {
-  color: #009DFF;
-  border: 1px solid #009DFF;
+  color: #35B7AE;
+  border: 1px solid #35B7AE;
   background: #fff;
 }
 
@@ -4617,7 +4618,7 @@ h6 {
 
 /* line 14, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_blog.scss */
 .blog_area a:hover, .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #009DFF 0%, #009DFF 99%);
+  background: -webkit-linear-gradient(131deg, #35B7AE 0%, #35B7AE 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -5128,7 +5129,7 @@ h6 {
 
 /* line 544, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_blog.scss */
 .blog_details a:hover {
-  color: #009DFF;
+  color: #35B7AE;
 }
 
 /* line 549, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_blog.scss */
@@ -5196,7 +5197,7 @@ h6 {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #009DFF;
+  background-color: #35B7AE;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -5424,7 +5425,7 @@ h6 {
 
 /* line 842, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #009DFF;
+  background: #35B7AE;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -5672,7 +5673,7 @@ h6 {
 
 /* line 1208, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_blog.scss */
 .single-post-area .blog-author a:hover {
-  color: #009DFF;
+  color: #35B7AE;
 }
 
 /* line 1213, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_blog.scss */
@@ -6101,7 +6102,7 @@ h6 {
 
 /* line 72, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body a {
-  color: #009DFF;
+  color: #35B7AE;
   text-transform: uppercase;
   -webkit-transition: 0.8s;
   transition: 0.8s;
@@ -6128,7 +6129,7 @@ h6 {
   height: 10px;
   top: 5px;
   left: 0;
-  background-color: #009DFF;
+  background-color: #35B7AE;
   border-radius: 50%;
 }
 
