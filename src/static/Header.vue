@@ -50,19 +50,19 @@
                                 <nav>
                                     <ul id="navigation">
                                         <li>
-                                            <a class="active" href="/">Acceuil</a>
+                                            <a  href="/" :class="{ active: route.path === '/' }">Acceuil</a>
                                         </li>
                                         <li>
-                                            <routerLink to="/departement">Département</routerLink>
+                                            <routerLink to="/departement" exact-active-class="active">Département</routerLink>
                                         </li>
                                         <li>
-                                            <routerLink to="/a-propos">A propos</routerLink>
+                                            <routerLink to="/a-propos" exact-active-class="active">A propos</routerLink>
                                         </li>
                                         <li>
-                                            <routerLink to="/blog">Blog</routerLink>
+                                            <routerLink to="/blog" exact-active-class="active">Blog</routerLink>
                                         </li>
                                         <li>
-                                            <routerLink to="/contact">Contact</routerLink>
+                                            <routerLink to="/contact" exact-active-class="active">Contact</routerLink>
                                         </li>
                                     </ul>
                                 </nav>
@@ -131,8 +131,20 @@
 </template>
 
 <script setup>
+import { useRoute } from 'vue-router'
 
+const route = useRoute()
 import Contact from '@/pages/Contact.vue'
+import Acceuil from '@/pages/Acceuil.vue'
 </script>
 
-<style lang="scss" scoped></style>
+<style  scoped>
+.router-link-active,
+.router-link-exact-active,
+.active {
+  border-bottom: 2px solid #35B7AE; /* ou underline, ou changement de couleur */
+  color: #35B7AE !important;
+  padding-bottom: 10px !important; /* Ajustez la marge si nécessaire */
+}
+
+</style>

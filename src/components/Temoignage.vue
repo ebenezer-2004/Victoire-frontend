@@ -1,5 +1,5 @@
 <template>
-  <div class="testmonial_area">
+  <div class="testmonial_area"  data-aos="fade-up" data-aos-duration="1000">
     <div class="testmonial_active owl-carousel">
 
       <div class="single-testmonial testmonial_bg_1 overlay2">
@@ -98,7 +98,16 @@
 </template>
 
 <script setup>
-// Owl Carousel logic here if needed
+import { onMounted } from 'vue'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+onMounted(() => {
+  AOS.init({
+    once: false, // Permet à l’animation de se rejouer à chaque fois qu’on revient dans le viewport
+    mirror: true // Permet à l'animation de se rejouer lorsqu'on scroll en arrière
+  })
+})
 </script>
 
 <style scoped>

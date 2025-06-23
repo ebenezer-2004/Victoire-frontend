@@ -1,5 +1,5 @@
 <template>
-    <div class="our_department_area">
+    <div class="our_department_area"  data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -57,7 +57,16 @@
 </template>
 
 <script setup>
-  
+  import { onMounted } from 'vue'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+onMounted(() => {
+  AOS.init({
+    once: false, // Permet à l’animation de se rejouer à chaque fois qu’on revient dans le viewport
+    mirror: true // Permet à l'animation de se rejouer lorsqu'on scroll en arrière
+  })
+})
 </script>
 
 <style lang="scss" scoped>

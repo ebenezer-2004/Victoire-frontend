@@ -1,5 +1,5 @@
 <template>
-    <div class="welcome_docmed_area">
+    <div class="welcome_docmed_area"  data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-6">
@@ -16,7 +16,7 @@
                     <div class="welcome_docmed_info">
                         <h2>Qui Sommes-nous ?</h2>
 
-                        <p style="font-size: 14px;">Clinique La Victoire est un établissement médical renommé, situé Avédji. La clinique est
+                        <p style="font-size: 14px;text-align:justify">Clinique La Victoire est un établissement médical renommé, situé Avédji. La clinique est
                             réputée pour son excellence dans les soins de santé. Elle propose une gamme complète de
                             services médicaux, allant de la chirurgie générale à la médecine spécialisée en passant par
                             les soins infirmiers et les services d'imagerie médicale.
@@ -48,7 +48,16 @@
 </template>
 
 <script setup>
+import { onMounted } from 'vue'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
+onMounted(() => {
+  AOS.init({
+    once: false, // Permet à l’animation de se rejouer à chaque fois qu’on revient dans le viewport
+    mirror: true // Permet à l'animation de se rejouer lorsqu'on scroll en arrière
+  })
+})
 
 </script>
 
